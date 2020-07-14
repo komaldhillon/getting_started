@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>THIS IS OUR FIRST WEBPAGE</title>
+        <style>
+            .redtext{color:red;}
+            .mydivstyle {background-color: blueviolet}
+        </style>
+        <script>
+            function change_the_text_to(what) {document.getElementById('output').innerHTML = what}
+        </script>
+    </head>
+    <body>
+        <h1 class="redtext">Hi Everyone</h1>
+        <button type="button" onclick="change_the_text_to('Hello World')">Click Here</button>
+        <div id="output" class="mydivstyle">Random text</div>
+    </body>
+</html>
